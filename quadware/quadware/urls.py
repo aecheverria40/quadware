@@ -21,5 +21,5 @@ from quadweb import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index, name='index_view'),
+    path('', views.home, name='index_view'),
 ]

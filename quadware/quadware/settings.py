@@ -25,7 +25,7 @@ SECRET_KEY = '&b9m@(kf16of(7=4sjfsbv-+hkm&1@dmc_xd-56l9l6(c_wua_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['alejandro123.pythonanywhere.com']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'quadware.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['template'],
+        'DIRS': ['/home/alejandro123/quadware/quadware/template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -120,6 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+STATIC_ROOT = 'home/alejandro123/quadware/quadware/static'
 
 # Para tener un correo para poder pedir informacion
 # Setup Email Response for password
