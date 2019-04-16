@@ -25,7 +25,7 @@ SECRET_KEY = '&b9m@(kf16of(7=4sjfsbv-+hkm&1@dmc_xd-56l9l6(c_wua_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['alejandro123.pythonanywhere.com']
+ALLOWED_HOSTS = ['alejandro123.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'quadware.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/home/alejandro123/quadware/quadware/template'],
+        'DIRS': ['template','/home/alejandro123/quadware/quadware/template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
