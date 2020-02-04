@@ -8,14 +8,20 @@
 <div id="inicio" class="section scrollspy">
 <div class="carousel carousel-slider center">
   <div class="carousel-fixed-item center">
-    <a class="btn waves-effect waves-light teal lighten-1" onclick="borrardiv();">Conocenos</a>
+    <!-- <a class="btn waves-effect waves-light teal lighten-1" onclick="borrardiv();">Conocenos</a> -->
   </div>
   <div class="carousel-item">
-    <img src="{% static 'media/banner.png' %}" alt="banner">
+    <img src="{% static 'media/ewally.png' %}" alt="banner">
   </div>
   <div class="carousel-item">
-    <img src="{% static 'media/foto.jpg' %}" alt="banner2">
+    <img src="{% static 'media/ewally_prize.jpg' %}" alt="banner2">
   </div>
+  <div class="carousel-item">
+    <img src="{% static 'media/ewally_campana.jpg' %}" alt="banner2">
+  </div>
+  <!-- <div class="carousel-item">
+    <img src="{% static 'media/ewally_ensenada.jpg' %}" alt="banner2">
+  </div> -->
 </div>
 </div>
 <!--Banner-->
@@ -44,29 +50,35 @@
     <div class="row">
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">event_note</i></h2>
-          <h5 class="center">Misión</h5>
-          <p class="light">Proveer soluciones y capacitaciones de CAD a las empresas
-            y personas que esten dentro de este ramo.</p>
+          <h2 class="center light-green-text"><i class="material-icons">event_note</i></h2>
+          <h5 class="center">¿Quiénes Somos?</h5>
+          <p class="light">Somos una empresa que ofrece servicios de
+            recolección de materiales reciclables de una
+            manera fácil, rápida y segura para tu hogar o
+            negocio.</p>
         </div>
       </div>
 
 
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">location_city</i></h2>
-          <h5 class="center">Perfil de la empresa</h5>
-          <p class="light">Centro de Capacitaciones, Soluciones de diseño mecánico y
-            maquinado industrial.</p>
+          <h2 class="center light-green-text"><i class="material-icons">location_city</i></h2>
+          <h5 class="center">Servicio de acopio de electrónicos</h5>
+          <p class="light">Nuestro servicio contempla la recolección de
+            aparatos electrónicos en empresas privadas,
+            mismas que cuentan con la libertas de recibir de
+            externos (empleados o empresas aledañas) los
+            productos a tratar.</p>
         </div>
       </div>
 
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">desktop_windows</i></h2>
-          <h5 class="center">Productos</h5>
-          <p class="light">Soluciones CAD, Capacitaciones de SolidWorks, AutoCAD y
-            MasterCAM.</p>
+          <h2 class="center light-green-text"><i class="material-icons">desktop_windows</i></h2>
+          <h5 class="center">Un servicio de calidad a excelente precio</h5>
+          <p class="light">La atención con cada uno de nuestros clientes es
+            especialiada, por eso contamos con un plan flexible para las
+            empresas que solicitan de nuestro servicio.</p>
         </div>
       </div>
 
@@ -82,10 +94,10 @@
       <br><br>
       <!-- Scroll -->
       <div id="conocenos" class="section scrollspy">
-      <h1 class="header center blue-text text-darken-3">Conócenos</h1>
+      <h1 class="header center light-green-text ">Conócenos</h1> <!--text-darken-1-->
       </div>
       <div class="row center">
-        <h5 class="header col s12 light">Soluciones CAD y Capacitaciones de SolidWorks, AutoCAD y MasterCAM.</h5>
+        <!-- <h5 class="header col s12 light">Soluciones CAD y Capacitaciones de SolidWorks, AutoCAD y MasterCAM.</h5> -->
       </div>
       <!-- <div class="row center">
         <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">
@@ -95,7 +107,7 @@
 
     </div>
   </div>
-  <div class="parallax"><img src="{% static 'media/foto3.jpg' %}" alt="Unsplashed background img 1"></div>
+  <div class="parallax"><img src="{% static 'media/ewally_ensenada.jpg' %}" alt="Unsplashed background img 1"></div>
 </div>
 
 <div class="container">
@@ -108,8 +120,10 @@
             <span class="card-title">Misión</span>
           </div>
           <div class="card-content">
-            <p>Proveer soluciones y capacitaciones de CAD a las empresas
-              y personas que esten dentro de este ramo.</p>
+            <p>Nos comprometemos a recuperar la mayor cantidad de materiales reciclables con la
+            finalidad de crear una nueva economía para la protección del medio ambiente, de
+            nuestros empleados, vecinos, comunidades y clientes en México, como en todo el
+            mundo.</p>
           </div>
         </div>
       </div>
@@ -120,7 +134,8 @@
             <span class="card-title">Visión</span>
           </div>
           <div class="card-content">
-            <p>Insertar Visión</p>
+            <p style="height:182px;">Crear una economía circular dentro de los residuos generados por la comunidad.
+            </p>
           </div>
         </div>
       </div>
@@ -135,21 +150,58 @@
         <div class="row center">
           <!-- Scroll -->
           <div id="servicios" class="section scrollspy">
-          <h1 class="header center blue-text text-darken-3">Servicios</h1>
+          <h1 class="header center light-green-text">Servicios</h1>
           </div>
-          <h5 class="header col s12 light">Aquí preguntar si va algo</h5>
+          <!-- <h5 class="header col s12 light">Aquí preguntar si va algo</h5> -->
         </div>
       </div>
     </div>
-  <div class="parallax"><img src="{% static 'media/foto2.jpg' %}" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="{% static 'media/ewally_servicios.jpg' %}" alt="Unsplashed background img 2"></div>
 </div>
 
 <div class="container">
   <div class="section">
     <div class="row">
+      <div class="col s12 m3">
+        <div class="icon-block">
+          <h2 class="center light-green-text"><i class="material-icons">airport_shuttle</i></h2>
+          <h5 class="center">Gestión y recolección de residuos</h5>
+          <!-- <p class="light">Proveer soluciones y capacitaciones de CAD a las empresas
+            y personas que esten dentro de este ramo.</p> -->
+        </div>
+      </div>
+
+
+      <div class="col s12 m3">
+        <div class="icon-block">
+          <h2 class="center light-green-text"><i class="material-icons">assignment</i></h2>
+          <h5 class="center">Certificación ambiental</h5>
+          <!-- <p class="light">Centro de Capacitaciones, Soluciones de diseño mecánico y
+            maquinado industrial.</p> -->
+        </div>
+      </div>
+
+      <div class="col s12 m3">
+        <div class="icon-block">
+          <h2 class="center light-green-text"><i class="material-icons">domain</i></h2>
+          <h5 class="center">Campañas publicitarias</h5>
+          <!-- <p class="light">Soluciones CAD, Capacitaciones de SolidWorks, AutoCAD y
+            MasterCAM.</p> -->
+        </div>
+      </div>
+       <div class="col s12 m3">
+        <div class="icon-block">
+          <h2 class="center light-green-text"><i class="material-icons">delete</i></h2>
+          <h5 class="center">Contenedores</h5>
+          <!-- <p class="light">Soluciones CAD, Capacitaciones de SolidWorks, AutoCAD y
+            MasterCAM.</p> -->
+        </div>
+      </div>
+    </div>
+<!--     <div class="row">
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">account_balance</i></h2>
+          <h2 class="center light-green-text"><i class="material-icons">account_balance</i></h2>
           <h5 class="center">Misión</h5>
           <p class="light">Proveer soluciones y capacitaciones de CAD a las empresas
             y personas que esten dentro de este ramo.</p>
@@ -159,7 +211,7 @@
 
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">lverified_user</i></h2>
+          <h2 class="center light-green-text"><i class="material-icons">lverified_user</i></h2>
           <h5 class="center">Perfil de la empresa</h5>
           <p class="light">Centro de Capacitaciones, Soluciones de diseño mecánico y
             maquinado industrial.</p>
@@ -168,42 +220,13 @@
 
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">watch_later</i></h2>
+          <h2 class="center light-green-text"><i class="material-icons">watch_later</i></h2>
           <h5 class="center">Productos</h5>
           <p class="light">Soluciones CAD, Capacitaciones de SolidWorks, AutoCAD y
             MasterCAM.</p>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">account_balance</i></h2>
-          <h5 class="center">Misión</h5>
-          <p class="light">Proveer soluciones y capacitaciones de CAD a las empresas
-            y personas que esten dentro de este ramo.</p>
-        </div>
-      </div>
-
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">lverified_user</i></h2>
-          <h5 class="center">Perfil de la empresa</h5>
-          <p class="light">Centro de Capacitaciones, Soluciones de diseño mecánico y
-            maquinado industrial.</p>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center blue-text"><i class="material-icons">watch_later</i></h2>
-          <h5 class="center">Productos</h5>
-          <p class="light">Soluciones CAD, Capacitaciones de SolidWorks, AutoCAD y
-            MasterCAM.</p>
-        </div>
-      </div>
-    </div>
+    </div> -->
   </div>
 </div>
 
@@ -214,9 +237,9 @@
         <div class="row center">
           <!--Scroll-->
           <div id="equipo" class="section scrollspy">
-          <h1 class="header center blue-text text-accent-1">Equipo</h1>
+          <h1 class="header center light-green-text">Equipo</h1> <!--text-accent-1-->
           </div>
-          <h5 class="header col s12 light">Aquí preguntar si va algo</h5>
+          <!-- <h5 class="header col s12 light">Aquí preguntar si va algo</h5> -->
         </div>
       </div>
     </div>
@@ -270,9 +293,9 @@
         <div class="row center">
           <!-- Scroll -->
           <div id="contacto" class="section scrollspy">
-          <h1 class="header center blue-text text-accent-1">Contacto</h1>
+          <h1 class="header center light-green-text">Contacto</h1>
           </div>
-          <h5 class="header col s12 light">Aquí preguntar si va algo</h5>
+          <!-- <h5 class="header col s12 light">Aquí preguntar si va algo</h5> -->
         </div>
       </div>
     </div>
@@ -293,7 +316,7 @@
         <p>Lunes a Domingo de 10:00 am a 8:00 pm.</p>
         <br>
         <h5> <b> Correo Electronico <i class="material-icons tiny">contact_mail</i></b> </h5>
-        <p>admin@quadware.com.mx</p>
+        <p>dserrano@ewally.com.mx</p>
       </div>
     </div>
   </div>
